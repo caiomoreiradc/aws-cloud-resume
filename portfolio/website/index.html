@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Carvalho - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header id="home">
+        <h1>Caio Carvalho</h1>
+        <p class="description">Software Developer specialized in .NET, currently studying Python and AWS</p>
+        <p class="counter-number"></p>
+        <div class="social-icons">
+            <a href="https://github.com/caiomoreiradc" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://www.linkedin.com/in/caiomdc/" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="https://wa.me/5549991914453" targe="_blank" aria-label="Message"><i data-lucide="message-circle"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="experience" class="experience">
+            <h2>Experiências</h2>
+            <div class="experience-item">
+                <h3>Aluno Estagiário (03/2023-12/2023)</h3>
+                <h4>Academia do Programador</h4>
+                <p> • Realização de projetos usando C#, .NET Framework, Angular & Typescript com banco de dados SQL.</p>
+                <p> • Atuei como lider de um time de desenvolvedores com 4 membros em trabalhos que envolveram a criação de diversos projetos de sistemas web/desktop baseados em soluções reais Exemplo: Agenda de Compromissos, Sistema de Organização de Festa Infantil, Sistema de Aluguel de Veículos, etc.</p>
+                <p> • Utilização da metodologias ágeis, realização de daily meetings, code reviews e Kanban Board.</p>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Educação</h2>
+            <div class="education-item">
+                <h3>Bacharelado em Sistemas de Informação</h3>
+                <p>Universidade do Planalto Catarinense, 2022-2025</p>
+            </div>
+            <div class="education-item">
+                <h3>Estudo de Idioma - Inglês</h3>
+                <p>British School Curitibanos, 2013-2021</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>.NET</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>AWS</li>
+                <li>Angular</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projetos</h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="project" onclick="window.open('https://github.com/caiomoreiradc/MyPortfolio', '_blank');"">
+                        <img src="/images/Project1.png" alt="Project 1" class="project-image">
+                        <div class="project-info">
+                            <h3>Meu Portfólio</h3>
+                            <div class="tech-icons">
+                                <i class="devicon-html5-plain"></i>
+                                <i class="devicon-css3-plain"></i>
+                                <i class="devicon-javascript-plain"></i>
+                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                            </div>
+                            <p>Este portfólio foi um projeto de estudos para deploy na AWS!</p>
+                        </div>
+                    </div>
+                    <div class="project" onclick="window.open('https://github.com/caiomoreiradc/Virtualshop', '_blank');"">
+                        <img src="/images/Project2.png" alt="Project 2" class="project-image">
+                        <div class="project-info">
+                            <h3>Loja Virtual Microsserviços</h3>
+                            <div class="tech-icons">
+                                <i class="devicon-csharp-plain"></i>
+                                <i class="devicon-dotnetcore-plain"></i>
+                                <i class="devicon-mysql-original"></i>
+                            </div>
+                            <p>Projeto desenvolvido para estudo de arquitetura de microsserviços em .NET</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="" alt="Project 3" class="project-image">
+                        <div class="project-info">
+                            <h3>Project 3</h3>
+                            <p>placeholder</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button prev" aria-label="Previous project">&lt;</button>
+                <button class="carousel-button next" aria-label="Next project">&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Caio Carvalho. Todos os direitos Reservados.</p>
+        <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#experience">Experiências</a>
+            <a href="#education">Educação</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projetos</a>
+        </nav>
+        <div class="social-icons">
+            <a href="https://github.com/caiomoreiradc" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://www.linkedin.com/in/caiomdc/" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="https://wa.me/5549991914453" target="_blank" aria-label="Message"><i data-lucide="message-circle"></i></a>
+        </div>
+    </div>
+</footer>
+
+</html>
