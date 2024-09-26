@@ -16,6 +16,4 @@ Meu portfólio hospedado na AWS.
 
 
 ## [Live 🔗](https://www.caiocarvalho.net)
-## Eu
-- LinkedIn: [caiomdc](https://linked.com/in/caiomdc)
-  
+
