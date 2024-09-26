@@ -249,6 +249,10 @@ footer {
     gap: 1rem;
 }
 
+.footer-nav a:hover{
+    transform: scale(1.1);
+}
+
 .footer-nav a {
     color: var(--color-brown);
     text-decoration: none;
