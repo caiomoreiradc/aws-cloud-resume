@@ -32,13 +32,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-const counter = document.querySelector(".counter-number")
-async function updateCounter()
-{
-    let response = await fetch("https://yoiyvsdma3piycmpyc5ekapaqy0pdibj.lambda-url.sa-east-1.on.aws/");
-    let data = await response.json();
-    counter.innerHTML = `${data} visitantes passaram por aqui.`;
-}
-
-updateCounter();
